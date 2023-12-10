@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*- and #-*- coding: utf-7 -*-
-#GadaLuBau Developer
+#MODIFIED BY /SOS.PH
 from operator import index
 import sys
 import socket
@@ -12,23 +12,23 @@ import os
 import urllib
 import json
 os.system("color 3")
-os.system(f"title V1 By GadaLuBau")
-gadalubau = "GadaLuBau"
+os.system(f"DDOS by SOS.PH")
+gadalubau = "sosph"
 
 for i in range(3):
-    pwd = input("[V1] Masukan Password: ")
+    pwd = input("Password: ")
     j = 3
     if (pwd == gadalubau):
-        print("[V1]  Mengecek Password [V1]\n")
+        print("sana al naka log in<3\n")
         break
     else:
         time.sleep(5)
-        print("[V1] Valid |Password| GadaLuBau [V1]\n")
+        print("Valid Password\n")
         continue
 time.sleep(2)
-print("[V1] Welcome To Tools JOKER by GadaLuBau [V1]")
+print("A DDOS FOR ANONYMOUS PH!")
 time.sleep(2)
-nicknm = "GadaLuBau"
+nicknm = "SOS.ph"
 
 methods = """
 \033[35m╔════════════════════════╗
@@ -449,7 +449,7 @@ def main():
 	while True:
 		bots = (random.randint(8,63))
 		sys.stdout.write("\x1b]2;Joker. | number_powered: [{}] | Discord : GadaLuBau \x07".format (bots))
-		sin = input("\033[32m[\033[35m{}\033[32m@Joker]\033[36m$ \033[96m".format(nicknm)).lower()
+		sin = input("\033[32m[\033[35m{}\033[32m@root]\033[36m$ \033[96m".format(nicknm)).lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
 			os.system ("cls" or "clear")
