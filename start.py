@@ -24,7 +24,7 @@ for i in range(3):
         print("Invalid Password\n")
         continue
 time.sleep(2)
-print("Succesfully Logged in.!")
+print("Logged in Successfully..")
 time.sleep(2)
 nicknm = "SOS.ph"
 
@@ -450,61 +450,61 @@ def main():
 		sin = input("\033[32m[\033[35m{}\033[32m@root]\033[36m$ \033[96m".format(nicknm)).lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (banner)
 			main()
 		if sinput == "cls":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (banner)
 			main()
 		elif sinput == "updates":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (updates)
 			main()
 		elif sinput == "?":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (help)
 			main()
 		elif sinput == "layer4":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (layer4)
 			main()
 		elif sinput == "method":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (methods)
 			main()
 		elif sinput == "methods":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (methods)
 			main()
 		elif sinput == "home":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (home)
 			main()
 		elif sinput == "private":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (private)
 			main()
 		elif sinput == "vip":
-			os.system("cls" or "clear")
+			os.system("clear" or "clear")
 			print (vip)
 			main()
 		elif sinput == "gen3":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (gen3)
 			main()
 		elif sinput == "raw":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (raw)
 			main()
 		elif sinput == "layer7":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			print (layer7)
 			main()
 		elif sinput == "":
 			main()
 		elif sinput == "exit":
-			os.system ("cls" or "clear")
+			os.system ("clear" or "clear")
 			exit()
 		elif sinput == "std":
 			try:
