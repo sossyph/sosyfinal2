@@ -11,22 +11,20 @@ import getpass
 import os
 import urllib
 import json
-os.system("color 3")
-os.system(f"DDOS by SOS.PH")
 gadalubau = "sosph"
 
 for i in range(3):
     pwd = input("Password: ")
     j = 3
     if (pwd == gadalubau):
-        print("sana al naka log in<3\n")
+        print("Logging in...\n")
         break
     else:
         time.sleep(5)
-        print("Valid Password\n")
+        print("Invalid Password\n")
         continue
 time.sleep(2)
-print("A DDOS FOR ANONYMOUS PH!")
+print("Succesfully Logged in.!")
 time.sleep(2)
 nicknm = "SOS.ph"
 
@@ -139,7 +137,7 @@ layer7 =  """
 
 \033[35m                ╔═══════════════════════════════════════════════╗
 \033[35m                ║\033[32m                 HTTP-GET(Fail)                \033[35m║
-\033[35m                ║\033[32m                 CRASH-BROWSER                  \033[35m║
+\033[35m                ║\033[32m                 CRASH-BROWSER                 \033[35m║
 \033[35m                ║\033[32m                   HTTP-FIX                    \033[35m║
 \033[35m                ║\033[32m                 Coming Soon!                  \033[35m║
 \033[35m                ╚═══════════════════════════════════════════════╝
@@ -448,7 +446,7 @@ def main():
 
 	while True:
 		bots = (random.randint(8,63))
-		sys.stdout.write("\x1b]2;Joker. | number_powered: [{}] | Discord : GadaLuBau \x07".format (bots))
+		sys.stdout.write("\x1b]2;SOS.ph | number_powered: [{}] | Discord : GadaLuBau \x07".format (bots))
 		sin = input("\033[32m[\033[35m{}\033[32m@root]\033[36m$ \033[96m".format(nicknm)).lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
@@ -1320,7 +1318,7 @@ def main():
 		else:
 			os.system("cls" or "clear")
 			print (help)
-			print ("Are You Stupid Bro?")
+			print ("Ok raka??")
 			main()
 
 
